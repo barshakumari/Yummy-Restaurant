@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Shantell Sans", cursive;
+  scroll-behavior: smooth;
+}
+
+li a {
+  color: gray;
+  font-weight: bold;
+}
+li a:hover {
+  color: black;
+}
+h1 {
+  font-family: "Shantell Sans", cursive;
+  font-size: 50px;
+}
+.box1 {
+  height: 400px;
+
+  color: white
+}
+.box1 h1 {
+}
+.carousel-item img{
+  height: 90vh;
+  width: 100%;
+}
+.ab{
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+  transition: 0.3s;}
+  .about-img{
+    width: 100%;
+  }
+  .chefs-section .card:hover{
+    transform:scale(1.2);
+    /* box-shadow: 0 0 15px 4px rgba(0, 0  , 0, 0.2); */
+    transition: all 700ms ;
+  } 

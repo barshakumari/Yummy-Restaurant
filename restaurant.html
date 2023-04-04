@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="stylesheet" href="restaurant.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- animation css link  -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="header"></header>
+    <!-- home section -->
+    <section class="section bg-secondary bg-opacity-50">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Yummy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto me-5 ps-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#menu"
+                  >Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#event"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#chefs"
+                  >Chefs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Gallary</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Meals
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href=" #home-tab">Starters</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#profile-tab">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="#contact-tab">Lunch</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-pills ms-5">
+            <button class="btn btn-danger rounded-pill">Book a Table</button>
+          </div>
+        </div>
+      </nav>
+      <div class="home-content h-auto w-100 p-5">
+        <div class="row mt-5">
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h1 class="text-center text-capitalize mt-5 fw-bold fs-1">
+              enjoy your healthy <br />
+              delicious food
+            </h1>
+
+            <p class="text-center">
+              Sed autem laudantium doloers. Voluptatem itaque ea consequatur
+              <br />
+              eveniet. Eum quas beatae cumque eum quaerat.
+            </p>
+            <div class="text-center">
+              <button class="btn rounded-pill btn-danger">Book a Table</button>
+            </div>
+            <video src="https://youtu.be/LXb3EKWsInQ">video</video>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+            <img src="hero-img.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="section mt-5">
+      <div class="about-content p-3" id="about">
+        <div data-aos="fade-up" data-offset="300" data-aos-ofset="300">
+          <h6 class="text-secondary text-center">ABOUT US</h6>
+          <h1 class="text-center text-capitalize fw-bold">
+            learn more <span class="text-danger">about us</span>
+          </h1>
+          <hr class="w-25 m-auto text-danger" />
+        </div>
+        <div class="row pt-4">
+          <!-- content of about us  -->
+          <div class="col-lg-8" data-aos="fade-left">
+            <img src="img2.jpg" alt="" class="about-img" />
+          </div>
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-offset="300">
+            <p class="fs-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatem, corrupti quis modi obcaecati assumenda facilis!
+            </p>
+            <span class="d-flex"
+              ><i class="fa-solid fa-check-double fs-6 text-danger"></i>
+              <p class="fs-6">
+                &nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </span>
+            <span class="d-flex"
+              ><i class="fa-solid fa-check-double fs-6 text-danger"></i>
+              <p class="fs-6">
+                &nbsp;Duis aute irure dolor in reprehenderit in voluptate velit.
+              </p>
+            </span>
+            <span class="d-flex"
+              ><i class="fa-solid fa-check-double fs-6 text-danger"></i>
+              <p class="fs-6">
+                &nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate trideta
+                storacalaperda mastiro dolore eu fugiat nulla pariatur.
+              </p>
+            </span>
+            <p class="fs-6">
+              &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, veniam quia modi nam impedit labore.
+            </p>
+            <img
+              src="img3.jpg"
+              alt=""
+              class="about-img"
+              data-aos="flip-up"
+              data-aos-offset="300"
+            />
+          </div>
+        </div>
+        <!-- why part  -->
+        <div class="row p-5" data-aos="fade-up" data-aos-offset="300">
+          <div class="col-lg-4 bg-danger">
+            <div class="box1">
+              <h2 class="fw-bold text-center p-3">
+                Why Choose <br />
+                Yummy?
+              </h2>
+              <p class="fs-6 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi amet corporis quibusdam obcaecati iusto mollitia
+                officia eaque animi a explicabo. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Dolores cupiditate asperiores
+                aspernatur accusamus iure officia magnam illo suscipit assumenda
+                natus.
+              </p>
+              <div class="text-center">
+                <button class="btn rounded-pill btn-secondary">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row h-100 text-center p-5 lh-sm bg-secondary">
+              <div class="col-lg-4 border-start border-dark">
+                <i
+                  class="fa-solid fa-clipboard fs-2 text-danger lh-lg bg-danger bg-opacity-25 rounded-circle h-25 w-25"
+                ></i>
+                <h5 class="fs-5 fw-normal p-2">
+                  Corporis voluptates <br />
+                  officia eiusmod
+                </h5>
+                <p class="text-dark">
+                  Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                  laboris nisi ut aliquip
+                </p>
+              </div>
+              <div class="col-lg-4 border-start border-dark">
+                <i
+                  class="fa-regular fa-gem fs-2 text-danger lh-lg bg-danger bg-opacity-25 rounded-circle h-25 w-25"
+                ></i>
+                <h5 class="fs-5 fw-normal p-2">
+                  Ullamco laboris <br />
+                  ladore pan
+                </h5>
+                <p class="text-dark">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt
+                </p>
+              </div>
+              <div class="col-lg-4 border-start border-end border-dark">
+                <i
+                  class="fa-solid fa-inbox fs-2 text-danger lh-lg bg-danger bg-opacity-25 rounded-circle h-25 w-25"
+                ></i>
+                <h5 class="fs-5 fw-normal p-2">
+                  Labore consequatur <br />
+                  incidid dolore
+                </h5>
+                <p class="text-dark">
+                  Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                  maiores omnis facere
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section -->
+    <section class="section">
+      <div class="menu-content p-4" id="menu">
+        <h6 class="text-secondary text-center">OUR MENU</h6>
+        <h1 class="text-center text-capitalize fw-bold">
+          check our <span class="text-danger"> yummy menu</span>
+        </h1>
+        <hr class="w-25 m-auto text-danger" />
+        <!-- tabs -->
+        <ul
+          class="nav nav-pills justify-content-center mt-4"
+          id="myTab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active rounded-pill"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Starters
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link rounded-pill"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Breakfast
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link rounded-pill"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="contact-tab-pane"
+              aria-selected="false"
+            >
+              Lunch
+            </button>
+          </li>
+        </ul>
+        <div class="container">
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div class="row g-1 mt-4 ms-5">
+                <div class="col-lg-4">
+                  <img src="food1.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food2.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food3.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food4.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food5.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food6.jpg" alt="" class="w-75" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile-tab-pane"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <div class="row g-1 mt-4 ms-5">
+                <div class="col-lg-4">
+                  <img src="food1.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food2.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food3.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food4.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food5.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food6.jpg" alt="" class="w-75" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="contact-tab-pane"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+              tabindex="0"
+            >
+              <div class="row g-1 mt-4 ms-5">
+                <div class="col-lg-4">
+                  <img src="food1.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food2.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food3.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food4.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food5.jpg" alt="" class="w-75" />
+                </div>
+                <div class="col-lg-4">
+                  <img src="food6.jpg" alt="" class="w-75" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- event section -->
+    <section class="section">
+      <div class="event-section p-4" id="event">
+        <h6 class="text-secondary text-center">EVENT</h6>
+
+        <h1 class="text-center text-capitalize fw-bold">
+          share <span class="text-danger">your moments</span> in our restaurant
+        </h1>
+        <hr class="w-25 m-auto text-danger" />
+
+        <!-- carousel  -->
+        <div class="container-fluid my-2">
+          <div
+            id="carouselExampleDark"
+            class="carousel  slide text-center"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- first slide -->
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide1.webp" class="card-img " alt="..."  style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;"> 
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          birthday parties
+                        </h5>
+                        <span class="fw-bold fs-4">$499</span>
+
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide2.webp" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          custom parties
+                        </h5>
+                        <span class="fw-bold fs-4">$99</span>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide5.jpg" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          private parties
+                        </h5>
+                        <span class="fw-bold fs-4">$289</span>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- second slide -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide2.webp" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          custom parties
+                        </h5>
+                        <span class="fw-bold fs-4">$99</span>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide4.jpg" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          birthday parties
+                        </h5>
+                        <span class="fw-bold fs-4" class="fw-bold fs-4"
+                          >$499</span
+                        >
+
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide1.webp" class="card-img" alt="..."style="filter: brightness(50%);" />
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          birthday parties
+                        </h5>
+                        <span class="fw-bold fs-4" class="fw-bold fs-4"
+                          >$499</span
+                        >
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- third slide -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide3.jpg" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          birthday parties
+                        </h5>
+                        <span class="fw-bold fs-4" class="fw-bold fs-4"
+                          >$499</span
+                        >
+
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide5.jpg" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay"  style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          private parties
+                        </h5>
+                        <span class="fw-bold fs-4">$289</span>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card text-bg-dark">
+                      <img src="./slide2.webp" class="card-img" alt="..." style="filter: brightness(50%);"/>
+                      <div class="card-img-overlay" style="margin-top: 400px;">
+                        <h5 class="card-title fw-bolder text-capitalize">
+                          custom parties
+                        </h5>
+                        <span class="fw-bold fs-4">$99</span>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- chefs section -->
+    <section class="section chefs-section">
+      <div class="chefs-content p-4" id="chefs">
+        <h6 class="text-secondary text-center">CHEFS</h6>
+        <h1 class="text-center text-capitalize fw-bold">
+          our <span class="text-danger">profestional</span> chefs
+        </h1>
+        <hr class="w-25 m-auto text-danger" />
+        <!-- cards -->
+        <div class="container">
+          <div class="row g-4 mt-1">
+            <div class="col-lg-4 ab" data-aos="fade-right" data-aos-offset="300">
+              <div class="card">
+                <img src="./chefs1.webp" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bolder">Walter White</h5>
+                  <p class="text-muted">Master Chef</p>
+                  <p class="card-text text-secondary">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-offset="400">
+              <div class="card">
+                <img src="./chefs3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bolder">Sarah Jhonson</h5>
+                  <p class="text-muted">Cook</p>
+                  <p class="card-text text-secondary">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-left" data-aos-offset="300">
+              <div class="card">
+                <img src="./chefs2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title text-center fw-bolder">
+                    William Anderson
+                  </h5>
+                  <p class="text-muted">Patissier</p>
+                  <p class="card-text text-secondary">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <!-- Footer -->
+<footer class="bg-secondary text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b15af52e57.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- animation scrript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
